@@ -1,11 +1,14 @@
 
 setwd("~/Desktop/EXPL DATA ANALYSIS")
 
+#load library to read file in xlsx format or csv
 library(readr)
 
 ozone <- read.csv("US EPA data 2017.csv")
 
+#summary of the dataset
 summary(ozone)
+
 
 str(ozone)
 
